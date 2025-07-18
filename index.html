@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard - Artistas e Álbuns</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <header class="top-header">
+    <h1>Divas do Rap</h1>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Artistas</h2>
+      <ul>
+        <li><a href="surgiu.html" target="_blank" rel="noopener noreferrer">Aonde surgiu a cena feminina no Rap?</a></li>
+        <li><a href="pq.html" target="_blank" rel="noopener noreferrer">Por que ouvir as minas do Rap?</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <div class="filtros">
+        <input type="text" id="filtro" placeholder="Buscar..." />
+        <label>
+          <input type="checkbox" id="filtrarPorNome" />
+          Buscar apenas por nome
+        </label>
+      </div>
+      <div id="container-cards" class="cards"></div>
+    </main>
+  </div>
+
+  <script src="final.js"></script>
+
+  <footer class="footer">
+    <p>Desenvolvido por Thalita Avalo Bogado - Trabalho Final - 2025</p>
+  </footer>
+</body>
+</html>
